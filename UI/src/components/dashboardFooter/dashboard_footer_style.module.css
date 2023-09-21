@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
+
+@media only screen and (max-width: 768px) {
+    .container {
+        flex-wrap: wrap !important;
+    }
+}
+
+
+.container {
+    margin-top: 5em;
+    display: flex !important;
+    flex-wrap: nowrap;
+}
+
+.logoSection {
+    display: flex;
+    align-items: center;
+
+}
+
+.text {
+    font-size: 19px;
+    line-height: 22px;
+    font-weight: 600;
+    color: #343538;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.img>img {
+    width: 2.1em;
+    margin-right: 0.5em;
+}
+
+.mobileApps {
+    display: flex;
+    justify-content: flex-start;
+    gap: 2em;
+    padding-left: 3em;
+}
+
+.navLinks {
+    width: 100%;
+    display: flex;
+    gap: 3.5em;
+    flex-wrap: wrap;
+
+
+}
+
+.leftContainer {
+
+    width: 50%;
+
+}
+
+
+
+.list>ol {
+    list-style-type: none;
+    font-size: 14px;
+    line-height: 20px;
+    color: #343538;
+    font-family: 'Lato', sans-serif !important;
+    font-weight: 100 !important;
+    padding: 0;
+    margin: 0;
+}
+
+.list>ol>li {
+    line-height: 3em;
+    font-weight: lighter !important;
+    cursor: pointer;
+    color: #343538;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.list>ol>li:hover {
+    text-decoration: underline;
+}
+
+.menuContainer>h6 {
+    font-size: 17px;
+    line-height: 22px;
+    font-weight: unset;
+    font-variation-settings: "wght" 600, "opsz" 8;
+    color: #343538;
+    padding: 20px 0 13px;
+}

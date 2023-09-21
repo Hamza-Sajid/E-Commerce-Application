@@ -1,0 +1,7 @@
+.hr {
+    width: 90%;
+    margin: auto;
+    position: relative;
+    top: 4em;
+    border: 1px solid #E8E9EB !important;
+}

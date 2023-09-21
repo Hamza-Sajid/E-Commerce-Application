@@ -1,0 +1,140 @@
+.container {
+    display: flex !important;
+    padding: 0px !important;
+    margin: 0px;
+}
+
+.filterBox {
+    width: 20%;
+}
+
+.productBox {
+    width: 80%;
+    padding: 1em;
+    margin-top: 1em;
+    margin-left: 1em;
+    font-weight: bold;
+}
+
+.productContainer {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 1em;
+    padding: 2em;
+    gap: 2em;
+}
+
+.mainPrice>p:first-child {
+    font-size: 11px;
+    line-height: 16px;
+    position: relative;
+    top: -0.5em;
+    left: 0.8em;
+    font-weight: bold;
+}
+
+.mainPrice>p:nth-child(2) {
+    font-size: 21px;
+    line-height: 24px;
+    font-weight: unset;
+    color: rgb(52, 53, 56);
+}
+
+.mainPrice>p:last-child {
+    font-size: 11px;
+    line-height: 16px;
+    position: relative;
+    top: -0.5em;
+    left: -0.7em;
+}
+
+.mainPrice>p {
+    display: inline;
+    color: black;
+    font-size: 1.2em;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 0.3em;
+}
+
+
+.priceContainer {
+    display: flex !important;
+    align-items: center;
+}
+
+.productName {
+    position: relative;
+    top: -1em;
+    color: #343538;
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: lighter;
+
+}
+
+.productName>span {
+    position: relative;
+    top: -1em;
+    font-size: 0.8em;
+    color: rgb(150, 148, 148);
+}
+
+
+.stockText {
+    color: #343538;
+    font-size: 11px;
+    line-height: 16px;
+    overflow: hidden;
+}
+
+.stockArea {
+    position: relative;
+    top: -1.5em;
+    display: flex;
+    align-items: center;
+}
+
+.addCartBtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    position: absolute;
+    left: 40%;
+    border-radius: 20px;
+    border: 0px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 2px 8px;
+    background-color: rgb(16, 137, 16);
+    color: white;
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: unset;
+    font-variation-settings: "wght" 600, "opsz" 8;
+    transition: all 0.2s ease-out 0s;
+    font-weight: bold;
+    height: 2.8em;
+    width: 5.5em;
+    /* padding: 0.4em;
+     */
+    padding-right: 0.7em;
+    transition: width 0.3s ease-in, transform 0.3s ease-in;
+
+}
+
+.addBtn {
+    font-size: 1.8em !important;
+    color: white;
+    padding-right: 0.2em;
+}
+
+.addCartBtn:hover {
+    cursor: pointer;
+    transform: translateY(-10px) scale(0.95);
+    background-color: rgb(10, 97, 10);
+}
+
+.productNavLink {
+    text-decoration: none;
+    position: relative;
+}

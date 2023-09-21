@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
+
+
+.categorieList>ol {
+    list-style: none;
+    padding: 0px;
+}
+
+.categorieList>ol>li:first-child {
+    background-color: #343538;
+    margin-top: 0.5em;
+    color: white;
+    font-size: 1.2em !important;
+    padding: 0.5em;
+    border-radius: 10px;
+    text-indent: 10px;
+}
+
+
+.listItemLink>li {
+    background-color: white;
+    margin-top: 0.1em;
+    color: black;
+    font-size: 1em !important;
+    padding: 0.5em;
+    border-radius: 10px;
+    font-weight: lighter !important;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    list-style: none;
+
+}
+
+.listItemLink {
+    text-decoration: none;
+}
+
+.filterArea {
+    margin-top: 2em;
+}
+
+.priceFilter>input {
+    width: 4em;
+    padding: 0 7px;
+    margin-left: 0.4em;
+    margin-right: 0.4em;
+    background-color: #fff;
+    border: 1px solid #a8a8a8;
+    border-radius: 3px;
+    box-shadow: 0 1px 1px 0 #ececec;
+    color: #404040;
+    display: block;
+    height: 30px;
+}
+
+.priceFilter {
+    display: flex;
+    margin-top: 0.6em;
+}
+
+.btn {
+    background-color: rgb(10, 173, 10);
+    border: none;
+    color: white;
+    padding-left: 8px;
+    padding-right: 8px;
+    height: 30px;
+    margin-left: 0.4em;
+    border-radius: 0.2em;
+    font-size: 1em;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
+}
+
+.dashed {
+    display: flex;
+    align-items: center;
+    margin-left: 0.2em;
+    margin-right: 0.2em;
+    color: gray;
+}
+
+.hr {
+    color: rgb(237, 236, 236);
+    background-color: rgb(237, 236, 236);
+    height: 1px;
+    border: none;
+    max-width: 80%;
+}
+
+.categorieListItems:hover {
+    cursor: pointer;
+    background-color: #ececec;
+    font-weight: bold;
+}

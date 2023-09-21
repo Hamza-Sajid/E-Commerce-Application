@@ -1,0 +1,33 @@
+.storesList {
+    display: flex !important;
+    align-items: center !important;
+    background-color: white !important;
+    width: 19em !important;
+    padding: 1.5em !important;
+    height: 3em !important;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 3px 6px 0.4px !important;
+    overflow: hidden !important;
+    border-radius: 0.8em !important;
+}
+
+
+.storeContainer {
+    display: flex !important;
+    flex-wrap: wrap !important;
+    gap: 1.5em !important;
+    margin-top: 1.5em !important;
+}
+
+.storesList:hover {
+    box-shadow: rgba(100, 100, 111, 0.2) 2px 5px 6px 2px !important;
+    cursor: pointer;
+}
+
+.caption {
+    font-family: textPara;
+    color: #0AAD0A;
+}
+
+.storeTitle {
+    font-family: normalHeading;
+}

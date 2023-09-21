@@ -1,0 +1,346 @@
+.container {
+    background-color: #F7F7F7;
+    height: 100%;
+}
+
+.detailsContainer {
+    background-color: #F7F7F7;
+    width: 77%;
+    margin: auto;
+    margin-top: 2em;
+    display: flex;
+    gap: 2em;
+
+}
+
+.orderInfo {
+    background-color: white;
+    width: 65%;
+    padding: 1em;
+    padding-left: 1.8em;
+    overflow: hidden;
+    margin-bottom: 2em;
+
+}
+
+.orderCode {
+    background-color: white;
+    width: 30%;
+    padding: 1em;
+    padding-left: 1.8em;
+    overflow: hidden;
+    height: 19em;
+
+}
+
+.orderDetails {
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+
+.orderDetailsLocation {
+    display: flex;
+    align-items: center;
+    gap: 1.2em;
+    width: 100%;
+    overflow: hidden;
+
+}
+
+.orderDetailsLocationImg>svg {
+    position: relative;
+    top: -3em;
+    color: #108910;
+    font-size: 1.5em;
+}
+
+.orderDetailsLocationText>input {
+    border: none;
+    padding-top: 0.6em;
+    padding-bottom: 0.6em;
+    border-radius: 8px;
+    width: 150%;
+    background-color: #F7F7F7 !important;
+    text-indent: 10px;
+    font-weight: 600;
+    font-size: 0.9em;
+    width: 250% !important;
+    margin-top: 0.3em;
+}
+
+.orderDetailsLocationText>h4 {
+    font-family: Helvetica;
+}
+
+.orderDetailsLocationText>input:focus {
+    border: 1px solid green !important;
+    outline: none;
+}
+
+.orderDetailsLocationText {
+    display: flex;
+    flex-direction: column;
+}
+
+.hr {
+    margin-top: 2em;
+    border: none;
+    height: 2px;
+    background-color: #F7F7F7;
+    color: #F7F7F7;
+    padding: 0px !important;
+    position: relative;
+    left: -1.8em;
+    width: 110%;
+
+}
+
+.deliveryLocationContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 102%;
+    margin-top: 1em;
+    position: relative;
+    left: -6px;
+}
+
+
+.deliveryLocationIcon>svg {
+    font-size: 1.4em;
+    color: rgb(114, 118, 126);
+    display: block;
+    margin: auto;
+    position: relative;
+    top: -1.5em;
+    left: -8px;
+}
+
+.deliveryLocationIcon {
+    width: 10%;
+
+}
+
+.deliveryLocationInput {
+    width: 100%;
+
+}
+
+.deliveryLocationInputFields {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.deliveryLocationInputFieldsHeading>h2 {
+    font-size: 1em;
+}
+
+.deliveryLocationInputFieldsText>p {
+    position: relative;
+    top: -2em;
+}
+
+.deliveryLocationInputFieldsText>textarea {
+    padding: 1em;
+    border: 1.5px solid #e7e5e5;
+    border-radius: 15px;
+    width: 80%;
+}
+
+.deliveryLocationInputFieldsText>textarea:focus {
+    border: 1px solid green !important;
+    outline: none;
+}
+
+.orderCode>button {
+    background-color: #F6F7F8;
+    color: #C7C9CE;
+    border: none;
+    width: 90%;
+    display: block;
+    margin: auto;
+    height: 2.8em;
+    border-radius: 25px;
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-top: 0.3em;
+}
+
+.orderCode>p {
+    position: relative;
+    top: -1em;
+    line-height: 1.2em;
+    font-family: Helvetica;
+}
+
+.OrderCodeHeading {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    margin-top: 1.8em;
+}
+
+.OrderCodeHeading>h4 {
+    font-weight: 600;
+}
+
+.buttonContainer {
+    display: flex;
+    align-items: center;
+}
+
+.phoneButtonPart1 {
+    border: 1px solid gray;
+    border-radius: 1em;
+    padding: 1em;
+    width: 20%;
+}
+
+.phoneButtonPart1>span {
+    font-size: 1.2em;
+}
+
+.phoneButtonPart2 {
+    border: 1px solid gray;
+    border-top-right-radius: 1em;
+    border-bottom-right-radius: 1em;
+    padding: 1em;
+    position: relative;
+    left: -1.2em;
+    background-color: white;
+    width: 80%;
+}
+
+.phoneButtonPart2>span {
+    font-size: 1.2em;
+}
+
+.cartContainer {
+    padding: 1em;
+    padding-left: 4em;
+}
+
+.productPriceContainer {
+    display: flex;
+    gap: 3em;
+}
+
+.productPriceContainer:first-child {
+    gap: 4em;
+    width: 80%;
+}
+
+.cartHr {
+    border: none;
+    height: 2px;
+    background-color: #F7F7F7;
+    margin-top: -0.8em;
+    width: 100%;
+}
+
+
+.cartItemsListContainer {
+    display: flex;
+    margin-top: 1em;
+    align-items: center;
+}
+
+.productName {
+    width: 50%;
+    gap: 1em;
+    display: flex;
+    align-items: center;
+
+}
+
+.productQuantity {
+    width: 25%;
+}
+
+.deleteIcon {
+    width: 15%;
+}
+
+.confirmPaymentBtn {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 1.8em;
+}
+
+.confirmPaymentBtn>button {
+    border: none;
+    background-color: #108910;
+    padding: 1em;
+    color: white;
+    font-size: 1.1em;
+    font-weight: bold;
+    border-radius: 25px;
+    width: 90%;
+}
+
+.confirmPaymentBtn>button:hover {
+    background-color: #0E7D0E;
+    cursor: pointer;
+}
+
+.cardContainer {
+    width: 100%;
+    max-width: 400px;
+    padding: 8px;
+    display: block;
+    margin: auto;
+    margin-top: 3em;
+
+}
+
+.cardElementContainer {
+    margin-top: 1em;
+}
+
+.modalContainer {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    margin: auto;
+}
+
+.divContainer {
+    padding: 2em;
+    width: 50%;
+    background-color: white;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
+
+.divContainer>h5 {
+    font-size: 1.2em;
+    text-align: center;
+    color: #30313d;
+}
+
+.divContainer>h3 {
+    text-align: center;
+    font-size: 1.8em;
+    color: #30313d;
+}
+
+.divContainer>svg {
+    display: block;
+    text-align: center;
+    margin: auto;
+    font-size: 6em;
+    color: #108910;
+}
+
+.createAccountBtn {
+    background-color: #0E7D0E !important;
+    color: white !important;
+    border-radius: 10px !important;
+    height: 2.15em !important;
+}

@@ -1,0 +1,35 @@
+.cardContainer {
+    border: 1px solid #eceaea;
+    padding: 0.5em;
+
+}
+
+.btn {
+    color: white !important;
+    background-color: #0AAD0A !important;
+    font-weight: bold !important;
+    border-radius: 8px !important;
+    border: none !important;
+    display: block !important;
+    margin: auto !important;
+}
+
+.btn:hover {
+    border: none !important;
+    background-color: #079007 !important;
+
+}
+
+.card {
+    height: 10em !important;
+    border-radius: 10px !important;
+    padding: 1em !important;
+}
+
+.card>img {
+    width: 10em !important;
+    height: 10em !important;
+    object-fit: contain !important;
+    display: block;
+    margin: auto;
+}

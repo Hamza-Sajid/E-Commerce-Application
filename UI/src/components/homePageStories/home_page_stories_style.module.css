@@ -1,0 +1,88 @@
+@media only screen and (max-width: 768px) {
+    .subContainer {
+        width: 100% !important;
+    }
+
+    .boxContainer {
+        flex-wrap: wrap !important;
+    }
+
+}
+
+.container {
+    margin-top: 4em;
+}
+
+.container>h4 {
+    text-align: center !important;
+    justify-content: center;
+}
+
+.boxContainer {
+    display: flex !important;
+    justify-content: space-between !important;
+    gap: 2em !important;
+    margin-top: 3em !important;
+
+
+}
+
+.subContainer {
+    background-color: #F6F7F8;
+    min-height: 160px;
+    border-radius: 8px;
+    height: auto;
+    width: 33.3%;
+
+}
+
+
+.subContainer>h4 {
+    padding: 32px;
+
+}
+
+.subContainer>span {
+    columns: #343538 !important;
+    width: 80%;
+    display: block;
+    margin: auto;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 100 !important;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.subContainer>img {
+    position: relative;
+    top: 2em;
+    width: 100%;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.btnContainer {
+    padding: 3em;
+}
+
+.btnContainer>button {
+    display: block;
+    margin: auto;
+    user-select: none;
+    touch-action: manipulation;
+    position: relative;
+    background-color: #0AAD0A;
+    color: #FFFFFF;
+    border-radius: 12px;
+    height: 56px;
+    width: 100%;
+    font-size: 1.2em;
+    margin-top: 48px;
+    max-width: 350px;
+    text-transform: none;
+}
+
+.btnContainer>button:hover {
+    background-color: #079007;
+}

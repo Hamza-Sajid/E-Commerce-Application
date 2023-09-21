@@ -1,0 +1,160 @@
+/* Media query for desktop-only visibility */
+@media (max-width: 767px) {
+  .desktopOnly {
+    display: none;
+    width: 100%;
+  }
+
+  .MainContainer {
+    position: relative !important;
+    top: 10% !important;
+    left: 0% !important;
+    transform: none !important;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px !important;
+    border-radius: 10px !important;
+    width: 95% !important;
+    height: auto !important;
+    display: block !important;
+    margin: auto !important;
+  }
+
+  .inputForm {
+    position: relative;
+    left: 20%;
+    margin: auto !important;
+  }
+
+  .inputForm {
+    width: 100% !important;
+  }
+}
+
+
+
+.bgContainer {
+  height: 100vh;
+}
+
+
+
+.MainContainer {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  display: flex !important;
+  gap: 10px;
+  align-items: center;
+  width: 70%;
+  height: 85%;
+  border-radius: 10px;
+}
+
+.img {
+  width: 100%;
+  border-radius: 10px;
+  display: inline;
+}
+
+.imgContainer {
+  padding: 1em;
+  width: 50%;
+}
+
+.inputForm {
+  width: 90%;
+  padding: 2em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-items: center;
+  margin: auto;
+  gap: 1.5em;
+}
+
+.inputForm>h5 {
+  color: #343538;
+  font-weight: bold;
+  text-align: center;
+  font-size: 2.3em;
+}
+
+.inputForm>h6 {
+  font-size: 1em;
+  font-weight: 200;
+  text-align: center;
+  color: #393838;
+}
+
+
+
+.container {}
+
+
+.box {
+  margin-top: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.paraTexts {
+  text-align: center;
+  margin-top: -2em;
+}
+
+.btn {
+  background-color: #0AAD0A !important;
+  width: 60% !important;
+  display: block !important;
+  margin: auto !important;
+  text-transform: none !important;
+  font-weight: lighter !important;
+  border-radius: 10px !important;
+  box-shadow: none !important;
+  font-size: 1em !important;
+  margin-top: -1em !important;
+}
+
+.btn:hover {
+  background-color: rgb(9, 155, 9) !important;
+  box-shadow: none !important;
+}
+
+.forgetPassword {
+  text-transform: none;
+  text-decoration: none !important;
+  float: right;
+  color: rgb(43, 42, 42);
+  position: relative;
+  top: -1em;
+}
+
+.loginForm {
+  padding: 0px;
+  margin: 0px;
+  width: 60%;
+}
+
+.errorMsg {
+  color: red;
+  position: relative;
+  top: -1em;
+}
+
+.link {
+  color: white;
+  border-radius: 20px;
+  padding: 0.3em;
+  margin-left: 0.5em !important;
+  margin-right: 0.5em !important;
+  text-decoration: none !important;
+  background-color: #0AAD0A !important;
+  font-weight: bold !important;
+}
+
+.link:hover {
+  background-color: rgb(9, 155, 9) !important;
+  color: white !important;
+}

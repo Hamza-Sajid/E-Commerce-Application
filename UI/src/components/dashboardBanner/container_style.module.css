@@ -1,0 +1,47 @@
+@media only screen and (max-width: 768px) {
+    .textContainer>h3 {
+        font-size: 1.8em;
+    }
+
+    .textContainer>p {
+        display: none;
+    }
+
+    .bannerStyle {
+        width: 106vw !important;
+    }
+
+    .textHeading {
+        font-weight: bold !important;
+    }
+
+}
+
+
+.bannerStyle {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    height: 14em !important;
+    width: 98.9vw !important;
+    margin-left: -1.5em !important;
+}
+
+.textContainer {
+    width: 50% !important;
+    height: 50% !important;
+    padding: 2em !important;
+    text-align: center !important;
+}
+
+.textContainer>h3 {
+    color: #343538 !important;
+}
+
+.textPara {
+    font-size: 16px !important;
+    line-height: 20px !important;
+    font-weight: lighter !important;
+    font-variation-settings: "wght" 400, "opsz" 8 !important;
+    color: #343538 !important;
+    margin: 16px 0 0 0 !important;
+}
