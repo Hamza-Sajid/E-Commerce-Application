@@ -1,12 +1,18 @@
-# Getting Started with E-commerce App
+# Getting Started with E-commerce Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+An e-commerce application inspired by InstaCart and built using MERN stack.
 
-## Folder Strcture
+## Video (DEMO)
 
-In the project there are 2 directories ui and api (UI part contain the frontend of the applicaiton ) and API part contain the backend.
+https://github.com/Hamza-Sajid/E-Commerce-Application/assets/20709155/9f2a0ef5-d56b-422f-a6d5-d527d40adead
 
-1-You can "cd api" to navigate to backend folder
+
+
+## Folder Structure
+
+In the project there are 2 directories ui and api (UI part contains the application's frontend) and API part contains the backend.
+
+1-You can "cd api" to navigate to the backend folder
 2-You can "cd ui" to navigate to ui folder
 
 ### `npm start`
